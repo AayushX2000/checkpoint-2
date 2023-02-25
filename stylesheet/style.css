@@ -78,6 +78,7 @@ header {
 .bar{
     display: flex;
     justify-content: space-between;
+    box-shadow: 0;
     
     margin:36px 0 ;
     background-color: white;
@@ -90,7 +91,7 @@ header {
 }
 .services a{
     margin: 0 18px;
-    font-size: 18px;
+    font-size: 17px;
     text-decoration: none;
     color:black;
 }
@@ -170,6 +171,7 @@ hr{
 {
     border-top: 4px solid orange;
     padding-top: 40px;
+    
 }
 
 .hero-section {
@@ -290,7 +292,8 @@ h2 hr{
 
 .graph{
     width: 396px;
-    border: 2px solid red;
+   
+    padding: 0px;
     
     margin: 6px 0;
     background-color: #E7E7E7;
@@ -308,20 +311,26 @@ p small{
     color: #EA523E;
 }
 .photoshop{
-    width: 370px;
+    width: 365px;
+    height: 20px;
+    padding: 6px;
    
     background-color: #EA523E;
 }
 .htmlcss{
     width:340px ;
+    height: 20px;
+    padding: 6px;
     background-color: #EA523E;
 }
 .dev{
     width:320px ;
+    height: 20px;
+    padding: 6px;
     background-color: #EA523E;
 }
 .graph small{
-
+color: white;
 padding: 30px;
 }
 
@@ -365,12 +374,15 @@ h5{
 
 .name,.email,.sub{
     width: 400px;
-    margin: 5px 0;
+    margin: 8px 0;
     height: 27px;
+    padding: 4px;
 }
 .message{
     height: 153px;
-    width: 400px;
+    width: 405px;
+    margin: 4px;
+    margin-left: 4px;
    
    
 }
