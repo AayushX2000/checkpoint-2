@@ -1,0 +1,120 @@
+.box{
+    border: 1px solid red; 
+    width: 290px;
+   
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #EA513E;
+   
+    
+   
+    
+
+ }
+
+ h1{
+text-align: center;
+ }
+ .logo{
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 8px;
+    font-weight: 600;
+    color: white;
+    
+   
+ }
+ .upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .upper div{
+    display: flex;
+    align-items: center;
+ }
+ .icons{
+    display: flex;
+    
+     
+ }
+ .icons div{
+   border: 2px solid white;
+   
+  
+    margin: 0 15px;
+    
+    width: 26px;
+    height: 26px;
+    border-radius: 15px;
+    background-color: #EA513E;
+ }
+ .icons i{
+   font-size: 17px;
+ display: flex;
+ justify-content: center;
+ 
+ color: white;
+ margin-top: 4px;
+ }
+ .upper img{
+   width: 30%;
+ }
+button a{
+   text-decoration: none;
+   color: white;
+   padding: 8px 5px;
+}
+button{
+   background-color: #EA513E;
+   border: 2px solid white;
+   padding: 4px;
+   border-radius: 4px;
+}
+h3{
+   color: white;
+   font-size: 24px;
+
+   line-height: 25px;
+ 
+}
+.des{
+   font-size: 14px;
+   line-height: 22px;
+   font-weight: 60;
+}
+.container{
+   display: flex;
+  
+}
+.gallery{
+ 
+ width: 1200px;
+ height: 650px;
+ padding: 20px;
+ overflow: scroll;
+ 
+
+
+}
+.images{
+display: flex;
+flex-wrap: wrap;
+padding: 10px;
+}
+.four{
+   width: 300px;
+   height: 300px;
+}
+h2{
+   text-align: center;
+   font-size: 30px;
+}
+.gallery img{
+   margin: 15px 15px;
+  width: 520px;
+  border: 2px solid black;
+
+}

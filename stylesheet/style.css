@@ -1,0 +1,404 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom  */
+.container{
+   max-width: 1300px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    position: fixed;
+    width: 100%;
+}
+.icons{
+   display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+.icons div{
+  
+   margin: 0 4px;
+   padding: 10px;
+   width: 10px;
+   height: 10px;
+   border-radius: 15px;
+   background-color: white;
+}
+
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+    
+    margin:36px 0 ;
+    background-color: white;
+}
+.services{
+    display: flex;
+    align-self: center;
+    padding: 10px;
+   
+}
+.services a{
+    margin: 0 18px;
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+}
+.logo {
+    display: flex;
+    
+}
+.log{
+    align-self: center;
+    font-size: 30px;
+    padding: 0 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #EA523E;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+   margin-top: 358px;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: white;
+   
+
+}
+hr{
+    text-align: center;
+    width: 304px;
+    
+}
+.descrip{
+    text-align: center;
+    font-size: 13px;
+    padding: 12px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    
+    color: black;
+}
+.up{
+    text-align: center;
+    font-size: 20px;
+    padding: 4px;
+    font-weight: 600;
+    color: white;
+
+}
+.design i{
+    font-size: 30px;
+}
+.black{
+    background-color: black;
+}
+.grey{
+    background-color: grey;
+}
+.btn{
+   text-align: center;
+    color: white;
+    margin:25px;
+    padding-bottom:70px;
+    border: 0px;
+}
+.btn button{
+    color: white;
+    background-color:#EA523E;
+    width: 123px; ;
+    height:38px ;
+    border: 0;
+    font-weight: 600;
+    font-size:12px ;
+    
+    
+}
+.home:active
+
+{
+    border-top: 4px solid orange;
+    padding-top: 40px;
+}
+
+.hero-section {
+    background: url("../assets/media/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-blend-mode: darken;
+
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+    z-index: 1;
+  }
+.slides{
+    margin: 14px 0;
+    display: flex;
+    justify-content: center;
+}
+.slides div{
+    border: 1px solid white;
+    margin: 1px 4px;
+    padding: 4px;
+    width: 0px;
+    height: 0px;
+    border-radius: 15px;
+
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+h2 hr{
+    width: 200px;
+}
+.design{
+
+    display: flex;
+  
+    justify-content: space-between;
+    padding: 70px;
+}
+.voilet,.orange,.blue,.green{
+    width: 23%;
+   
+    height: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+.orange{
+    background-color: #E67F31;
+}
+.blue{
+    background-color: #3998DB;
+}
+.green{
+    background-color: #68CD73;
+}
+.voilet{
+    background-color: #5CBD9D;
+}
+
+
+
+.icons i{
+    font-size: 13px;
+}
+
+.first{
+    margin-top: 85px;
+}
+
+.port{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 44px;
+   
+   
+    
+ 
+}
+
+.port img{
+    width:23%;
+    height: 250px;
+    margin: 10px;
+}
+.design img{
+    width: 258;
+    height: 256px;
+    border-radius: 121px;
+}
+.para{
+    width: 700px;
+   
+}
+.para p{
+  padding-bottom: 32px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.percent{
+    width: 350px;
+    height: 138px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.graph{
+    width: 396px;
+    border: 2px solid red;
+    
+    margin: 6px 0;
+    background-color: #E7E7E7;
+}
+.map{
+ 
+    margin-top: 40px;
+  
+}
+.details{
+    display: flex;
+
+}
+p small{
+    color: #EA523E;
+}
+.photoshop{
+    width: 370px;
+   
+    background-color: #EA523E;
+}
+.htmlcss{
+    width:340px ;
+    background-color: #EA523E;
+}
+.dev{
+    width:320px ;
+    background-color: #EA523E;
+}
+.graph small{
+
+padding: 30px;
+}
+
+.details{
+    display: flex;
+}
+.temp{
+    padding: 10px;
+    
+}
+.inquiries{
+    width: 700px;
+    display: block;
+    
+    padding: 10px;
+}
+.quotes{
+    margin-bottom: 10px;
+    line-height: 30px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.des{
+    margin-top: 20px;
+
+}
+h5{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.last{
+    width: 400px;
+    margin: 5px 0;
+    height: 27px;
+    text-align: center;
+    background-color: #EA523E;
+    color: white;
+    cursor: pointer;
+}
+
+.name,.email,.sub{
+    width: 400px;
+    margin: 5px 0;
+    height: 27px;
+}
+.message{
+    height: 153px;
+    width: 400px;
+   
+   
+}
+
+.end{
+   display: flex;
+   justify-content: space-between;
+ align-items: center;
+}
+
+
+footer{
+    margin-top: 50px;
+} 
+.end small{
+    font-size: 13px;
+    color: rgb(168, 148, 148);
+}
+button{
+    width: 115px;
+    height: 50px;
+    background-color: #EA523E;
+    border: 0;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+
+}
