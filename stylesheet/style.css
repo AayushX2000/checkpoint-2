@@ -54,7 +54,7 @@ table {
 }
 
 /* header */
-header {
+header{
     position: fixed;
     width: 100%;
 }
@@ -62,6 +62,7 @@ header {
    display: flex;
     margin: 0 auto;
     justify-content: center;
+    
     
 }
 .icons div{
@@ -79,21 +80,28 @@ header {
     display: flex;
     justify-content: space-between;
     box-shadow: 0;
+   
     
     margin:36px 0 ;
     background-color: white;
 }
 .services{
-    display: flex;
+   
     align-self: center;
     padding: 10px;
    
 }
 .services a{
-    margin: 0 18px;
-    font-size: 17px;
+   color: #55524f;;
+       text-transform: uppercase;
+       margin-right:  18px;
+    font-size: 15px;
     text-decoration: none;
     color:black;
+}
+.home{
+    border-top: 4px solid #EA513E;
+    padding-top: 35px;
 }
 .logo {
     display: flex;
@@ -166,13 +174,7 @@ hr{
     
     
 }
-.home:active
 
-{
-    border-top: 4px solid orange;
-    padding-top: 40px;
-    
-}
 
 .hero-section {
     background: url("../assets/media/banner.jpg");
